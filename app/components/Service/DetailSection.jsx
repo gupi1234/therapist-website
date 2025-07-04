@@ -10,7 +10,7 @@ const DetailSection = ({ service }) => {
         {/* Left text */}
         <div>
           {service.subtitle && (
-            <p className="text-sm font-semibold bg-gradient-to-r from-teal-400 to-teal-600 text-white px-4 py-1 rounded-full inline-block mb-2 shadow-md">
+            <p className=" text-xs sm:text-sm font-semibold bg-gradient-to-r from-teal-400 to-teal-600 text-white px-4 py-1 rounded-full inline-block mb-2 shadow-md">
               {service.subtitle}
             </p>
           )}

@@ -16,7 +16,7 @@ const DescImageAccordion = ({ service, accordions = [] }) => {
         {/* Header */}
         <div>
           {service?.badge && (
-            <span className="bg-gradient-to-r from-teal-400 to-teal-600 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-md inline-block">
+            <span className="bg-gradient-to-r from-teal-400 to-teal-600 text-white px-4 py-1 rounded-full text-xs sm:text-sm font-semibold shadow-md inline-block">
               {service.badge}
             </span>
           )}

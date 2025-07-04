@@ -25,7 +25,7 @@ const HeroSection = ({ image, title }) => {
             <p className="text-md md:text-lg flex items-center justify-center text-gray-400 font-semibold mb-2">
               Available for sessions...
             </p>
-            <p className="text-md  flex items-center justify-center  md:text-lg text-white font-semibold mb-4">
+            <p className=" text-sm  sm:text-md  flex items-center justify-center  md:text-lg text-white font-semibold mb-4">
               🗓️ In-Person: Tue & Thu | 💻 Online: Mon, Wed & Fri
             </p>
           </div>

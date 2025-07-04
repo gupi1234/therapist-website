@@ -50,7 +50,7 @@ const About = () => {
 
           {/* Right: Text Content */}
           <div className="text-slate-800">
-            <div className="bg-gradient-to-r from-teal-400 to-teal-600 text-white   px-4 py-1.5 rounded-full inline-block text-sm font-medium mb-6 shadow-sm">
+            <div className="bg-gradient-to-r from-teal-400 to-teal-600 text-white   px-4 py-1.5 rounded-full inline-block text-xs sm:text-sm font-medium mb-6 shadow-sm">
               About {therapist.name}, – Licensed Clinical Psychologist in Los
               Angeles
             </div>
