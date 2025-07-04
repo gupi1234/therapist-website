@@ -7,7 +7,7 @@ import Navbar from "./components/NavBar/Navbar";
 import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Navbar />
@@ -20,4 +20,6 @@ export default function Home() {
       <Footer />
     </>
   );
-}
+};
+
+export default Home;
