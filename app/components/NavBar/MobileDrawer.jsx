@@ -21,7 +21,7 @@ const MobileDrawer = ({ therapist, hero, drawerOpen, setDrawerOpen }) => (
     >
       {/* Close Button */}
       <button
-        className="absolute top-8 right-2 p-2 rounded-full border border-teal-900"
+        className="absolute top-2 right-2 p-2 rounded-full border border-teal-900"
         onClick={() => setDrawerOpen(false)}
         aria-label="Close navigation menu"
       >
@@ -30,19 +30,22 @@ const MobileDrawer = ({ therapist, hero, drawerOpen, setDrawerOpen }) => (
 
       {/* Logo */}
       <Link href="/#hero" scroll={true}>
-        <div id="/" className="flex items-center cursor-pointer gap-3 mt-4">
+        <div
+          id="/"
+          className="flex items-center mt-12 cursor-pointer gap-3 mt-4"
+        >
           <Image
             src={therapist.logo}
             alt="Logo"
             width={40}
             height={40}
-            className="w-8 h-8 rounded-full object-contain border border-[#2d96d7]/40 shadow-sm"
+            className="w-8 h-8 rounded-full  object-contain border border-[#2d96d7]/40 shadow-sm"
           />
           <div>
-            <h1 className="text-md font-bold bg-gradient-to-r from-[#2d96d7] to-[#099fcd] text-transparent bg-clip-text leading-tight">
+            <h1 className="text-sm font-bold bg-gradient-to-r from-[#2d96d7] to-[#099fcd] text-transparent bg-clip-text leading-tight">
               {therapist.name}
             </h1>
-            <p className="text-xs text-[#0594bc] font-medium">
+            <p className="text-[10px] sm:text-xs text-[#0594bc] font-medium">
               {therapist.title}
             </p>
           </div>
@@ -64,7 +67,7 @@ const MobileDrawer = ({ therapist, hero, drawerOpen, setDrawerOpen }) => (
 
         <Link
           href="/#contact"
-          className="mt-4 inline-flex items-center justify-center gap-2 px-4 py-3 font-medium border border-teal-700 rounded-md bg-white text-teal-700 transition hover:bg-teal-700 hover:text-white"
+          className="mt-4 text-sm sm:text:md inline-flex items-center justify-center gap-2 px-4 py-3 font-medium border border-teal-700 rounded-md bg-white text-teal-700 transition hover:bg-teal-700 hover:text-white"
           onClick={() => setDrawerOpen(false)}
         >
           <MdAutoAwesome className="w-5 h-5" />
